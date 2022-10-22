@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>EVENT PROPAGATION</h1>
+
+    <div id="parent" class="blue">
+        <p>1</p>
+        <div id="child" class="yellow">
+            <p>2</p>
+            <div id="grandchild" class="red">
+                <p>3</p>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" id="start">Propagation: ON</button>
+    <button type="button" id="direction">Propagation direction: DOWN</button>
+    <button type="button" id="reset">Reset</button>
+
+    <div id="log">
+        0
+    </div>
+</body>
+
+</html>

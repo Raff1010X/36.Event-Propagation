@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+div,
+button,
+#log {
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    margin: 10px auto;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#log {
+    font-size: 50px;
+    border: 1px solid black;
+    height: 5rem;
+}
+
+.blue {
+    background-color: lightblue;
+}
+.yellow {
+    background-color: yellow;
+}
+.red {
+    background-color: red;
+}
+.gray {
+    background-color: gray;
+}
+@media screen and (max-width: 1000px) {
+    div,
+    button,
+    #log {
+        width: 90%;
+        font-size: 15px;
+    }
+    #log {
+        height: 2.5rem;
+    }
+}
